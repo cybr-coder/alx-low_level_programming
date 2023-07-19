@@ -5,7 +5,8 @@
  *
  * @n: argument
  *
- * Return ()
+ * Return: 1 if n is positive, 0 if n is zero
+ * and -1 if n is negaqtive
  */
 
 int print_sign(int n)
