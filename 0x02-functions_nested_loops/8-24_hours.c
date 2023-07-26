@@ -2,17 +2,17 @@
 /**
  * jack_bauer - Print every minute of the day
  *
- * Return: Always 
+ * Return: Always
  */
 
 void jack_bauer(void)
 {
-        int hours;
-        int minutes;
+	int hours;
+	int minutes;
 
-        for (hours = 0; hours < 24; hours++)
-        {
-                for (minutes = 0; minutes < 60; minutes++)
+	for (hours = 0; hours < 24; hours++)
+	{
+		for (minutes = 0; minutes < 60; minutes++)
 		{
 			_putchar(hours / 10 + '0');
 			_putchar(hours % 10 + '0');
@@ -21,5 +21,5 @@ void jack_bauer(void)
 			_putchar(minutes % 10 + '0');
 			_putchar('\n');
 		}
-        }
+	}
 }
