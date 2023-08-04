@@ -14,11 +14,13 @@ int main(void)
 	{
 		if ((z % 2 == 0) && (y <= 4000000))
 		{
-			total += y;
+			total = total + z;
 		}
 		sum = y + z;
 		y = z;
 		z = sum;
 	}
+	printf("%ld\n", total);
+
 	return (0);
 }
