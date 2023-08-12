@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_diagonal draws a diaginal line on the terminal
+ * print_diagonal - draws a diaginal line on the terminal
  *
  * @n: Number of times the charater '/' should be printed
  *
