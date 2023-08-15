@@ -1,11 +1,11 @@
 *main.c
 0-isuper
-        1-isdigit
-        10-triangles
-        2-mul
-        3-print_numbers
-        4-print_most_numbers
-        5-more_numbers
-        8-squares
-        9-fizz_buzz
-	_putchar.c
+1-isdigit
+10-triangles
+2-mul
+3-print_numbers
+4-print_most_numbers
+5-more_numbers
+8-squares
+9-fizz_buzz
+_putchar.c
