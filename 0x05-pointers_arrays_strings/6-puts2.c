@@ -1,4 +1,4 @@
-#inclue "main.h"
+#include "main.h"
 
 /**
  * puts2 - prints every other character of a string
@@ -14,7 +14,7 @@ void puts2(char *str)
 		if (i % 2 == 0)
 			_putchar(str[i]);
 
-		i++
+		i++;
 	}
 	_putchar('\n');
 	
