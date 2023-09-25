@@ -10,13 +10,10 @@
 
 int is_palindrome(char *s)
 {
-	int length = 0;
+	int length = _strlen(s);
 
-	if (!s)
-		return (0);
-
-	while (s[length] != '\0')
-		length++;
+	if (length <= 1)
+		return (1);
 
 	return (check_palindrome(s, 0, length - 1));
 }
@@ -41,4 +38,15 @@ int check_palindrome(char *s, int start, int end)
 	return (check_palindrome(s, start + 1, end - 1));
 }
 
-
+/**
+ * _strlen - Helper function to calculate the length of a string recursively.
+ * @s: The input string.
+ *
+ * Return: The length of the string.
+ */
+int _strlen(char *s)
+{
+	if (*s == '\0')
+		return (0);
+	return (1 + _strlen(s + 1));
+}
